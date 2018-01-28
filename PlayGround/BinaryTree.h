@@ -14,8 +14,13 @@ public:
 	void printInOrder(TRAVERAL_ORDER order);
 	void printInOrder(Node * r, TRAVERAL_ORDER order);
 	void printLevelOrder();
-	void printGivenLevel(int d);
+	void printGivenLevel(int d, Node* node, bool sorted);
+	void printSortedLevels();
 private:
+
+	int treeHeight();
+
 	Node* root;
+	int height;
 };
 
