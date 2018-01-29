@@ -146,6 +146,7 @@
     <ClInclude Include="ANewHope.h" />
     <ClInclude Include="BinaryTree.h" />
     <ClInclude Include="GeeksForGeeksMedium.h" />
+    <ClInclude Include="LinkedList.h" />
     <ClInclude Include="RandomTasks.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />

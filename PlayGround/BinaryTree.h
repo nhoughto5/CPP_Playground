@@ -24,3 +24,16 @@ private:
 	int height;
 };
 
+void printBinarySortedTreesInSortedOrder() {
+	Node *root = BinaryTree::newNode(7);
+	root->left = BinaryTree::newNode(6);
+	root->right = BinaryTree::newNode(5);
+	root->left->left = BinaryTree::newNode(4);
+	root->left->right = BinaryTree::newNode(3);
+	root->right->left = BinaryTree::newNode(2);
+	root->right->right = BinaryTree::newNode(1);
+	BinaryTree tree;
+	tree.createTree(root);
+	//tree.printInOrder(Postorder);
+	tree.printSortedLevels();
+}
