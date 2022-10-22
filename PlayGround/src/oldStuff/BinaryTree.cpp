@@ -1,6 +1,4 @@
-#include "stdafx.h"
 #include "BinaryTree.h"
-
 
 BinaryTree::BinaryTree() : height(0), root(nullptr) {}
 

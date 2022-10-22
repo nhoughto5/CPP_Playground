@@ -1,5 +1,13 @@
 #pragma once
-#include "stdafx.h"
+#include <stdio.h>
+#include <iostream>
+#include <string>
+#include <sstream>
+#include <vector>
+#include <iterator>
+#include <algorithm>
+#include <queue>
+#include <tchar.h>
 enum TRAVERAL_ORDER{ Inorder, Preorder, Postorder};
 struct Node {
 	int data;

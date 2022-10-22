@@ -1,4 +1,15 @@
 
+# Directories
+.vs/
+bin/
+bin-int/
+
+# Files
+*.user
+*.sln
+*.vcxproj
+*.vcxproj.filters
+
 # Created by https://www.gitignore.io/api/c++,visualstudio
 
 ### C++ ###

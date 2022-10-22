@@ -1,31 +1,23 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27004.2010
-MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PlayGround", "PlayGround\PlayGround.vcxproj", "{AE98CC96-228D-40EF-B3D0-DE86276FFBDB}"
+# Visual Studio Version 16
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Playground", "Playground\Playground.vcxproj", "{0A67447D-F61E-86CA-5F26-5F264BFD20BB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
-		Debug|x86 = Debug|x86
+		Dist|x64 = Dist|x64
 		Release|x64 = Release|x64
-		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{AE98CC96-228D-40EF-B3D0-DE86276FFBDB}.Debug|x64.ActiveCfg = Debug|x64
-		{AE98CC96-228D-40EF-B3D0-DE86276FFBDB}.Debug|x64.Build.0 = Debug|x64
-		{AE98CC96-228D-40EF-B3D0-DE86276FFBDB}.Debug|x86.ActiveCfg = Debug|Win32
-		{AE98CC96-228D-40EF-B3D0-DE86276FFBDB}.Debug|x86.Build.0 = Debug|Win32
-		{AE98CC96-228D-40EF-B3D0-DE86276FFBDB}.Release|x64.ActiveCfg = Release|x64
-		{AE98CC96-228D-40EF-B3D0-DE86276FFBDB}.Release|x64.Build.0 = Release|x64
-		{AE98CC96-228D-40EF-B3D0-DE86276FFBDB}.Release|x86.ActiveCfg = Release|Win32
-		{AE98CC96-228D-40EF-B3D0-DE86276FFBDB}.Release|x86.Build.0 = Release|Win32
+		{0A67447D-F61E-86CA-5F26-5F264BFD20BB}.Debug|x64.ActiveCfg = Debug|x64
+		{0A67447D-F61E-86CA-5F26-5F264BFD20BB}.Debug|x64.Build.0 = Debug|x64
+		{0A67447D-F61E-86CA-5F26-5F264BFD20BB}.Dist|x64.ActiveCfg = Dist|x64
+		{0A67447D-F61E-86CA-5F26-5F264BFD20BB}.Dist|x64.Build.0 = Dist|x64
+		{0A67447D-F61E-86CA-5F26-5F264BFD20BB}.Release|x64.ActiveCfg = Release|x64
+		{0A67447D-F61E-86CA-5F26-5F264BFD20BB}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {A8C3B7DF-D591-4A41-B2AE-066A902A1147}
 	EndGlobalSection
 EndGlobal
